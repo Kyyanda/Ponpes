@@ -67,10 +67,18 @@ body {
     font-weight: 600;
 }
 
-/* Responsive Layar Kecl 960px */
-@media screen and (max-width: 960px) {
+/* Responsif Layar Kecil (Ponsel) */
+@media screen and (max-width: 768px) {
     .hero-text {
-        font-size: 35px;
+        font-size: 30px;  /* Mengurangi ukuran font untuk layar kecil */
+        font-weight: 600;
+    }
+}
+
+/* Responsif Layar Sangat Kecil (Ponsel Kecil) */
+@media screen and (max-width: 480px) {
+    .hero-text {
+        font-size: 24px;  /* Ukuran font lebih kecil untuk ponsel dengan layar lebih kecil */
         font-weight: 600;
     }
 }
